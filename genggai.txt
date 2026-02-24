@@ -1,0 +1,4 @@
+source ./devel/setup.bash
+
+
+source ~/工作空间/devel/setup.bash可以添加进.bashrc文件，使用上更方便

@@ -52,3 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/helloworld" TYPE FILE FILES "/home/hujiashuo/毕业设计/ROS-study/1.3.1.1/src/helloworld/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/helloworld" TYPE PROGRAM FILES "/home/hujiashuo/毕业设计/ROS-study/1.3.1.1/build/helloworld/catkin_generated/installspace/hello_p.py")
+endif()
+

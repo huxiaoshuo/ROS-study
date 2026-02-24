@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hujiashuo/毕业设计/ROS-study/1.3.1.1/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/hujiashuo/毕业设计/ROS-study/1.3.1.1/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/hujiashuo/毕业设计/ROS-study/1.3.1.1/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/hujiashuo/毕业设计/ROS-study/1.3.1.1/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/hujiashuo/毕业设计/ROS-study/1.3.1.1/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/hujiashuo/毕业设计/ROS-study/1.3.1.1/src:$ROS_PACKAGE_PATH"
