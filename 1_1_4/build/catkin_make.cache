@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/hujiashuo/毕业设计/ROS-study/1_1_4/devel -DCMAKE_INSTALL_PREFIX=/home/hujiashuo/毕业设计/ROS-study/1_1_4/install -G Unix Makefiles
