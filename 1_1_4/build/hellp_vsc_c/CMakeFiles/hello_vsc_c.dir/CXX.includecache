@@ -9,6 +9,8 @@
 /home/hujiashuo/毕业设计/ROS-study/1_1_4/src/hellp_vsc_c/src/hello_vsc_c.cpp
 ros/ros.h
 /home/hujiashuo/毕业设计/ROS-study/1_1_4/src/hellp_vsc_c/src/ros/ros.h
+ros/ros.h
+/home/hujiashuo/毕业设计/ROS-study/1_1_4/src/hellp_vsc_c/src/ros/ros.h
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
