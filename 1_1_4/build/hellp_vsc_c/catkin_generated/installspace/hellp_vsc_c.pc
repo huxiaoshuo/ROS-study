@@ -1,0 +1,8 @@
+prefix=/home/hujiashuo/毕业设计/ROS-study/1_1_4/install
+
+Name: hellp_vsc_c
+Description: Description of hellp_vsc_c
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
