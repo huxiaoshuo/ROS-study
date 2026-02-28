@@ -3,15 +3,16 @@
 int main (int argc , char *argv[])
 {
     ros::init(argc , argv, "hello");
-    ROS_INFO("HAHA");
+    setlocale(LC_ALL,"");
+    ROS_INFO("HAHA,哈哈哈");
     ROS_INFO("WHAT?");
 
     return 0;
 }
 
+//输入中文解决乱麻问题 setlocale(LC_ALL,"");
 
-/*
-
+/*   
 // 包含ROS的核心头文件，提供了ROS节点编程所需的基本功能（如初始化、日志输出等）
 #include "ros/ros.h"
 

@@ -1,0 +1,29 @@
+{
+    // 有关 tasks.json 格式的官方文档链接
+    // https://go.microsoft.com/fwlink/?LinkId=733558
+    "version": "2.0.0",  // tasks.json配置文件的版本，VSCode固定使用2.0.0
+    "tasks": [  // 任务列表，一个数组可以配置多个任务
+        {
+            "label": "catkin_make:debug",  // 任务的唯一标识（标签），VSCode中调用任务时会显示这个名称
+            "type": "shell",  // 任务执行类型：
+                              // - shell：在终端shell中执行命令（如bash）
+                              // - process：直接作为独立进程执行可执行文件
+            "command": "catkin_make",  // 要执行的核心命令（这里是ROS的编译命令catkin_make）
+            "args": [],  // 命令的参数列表，可选：
+                         // 示例1：只编译指定包 ["-DCATKIN_WHITELIST_PACKAGES=hello_ros"]
+                         // 示例2：编译所有包 []（空数组表示无额外参数）
+            "group": {  // 任务分组配置
+                "kind":"build",  // 归类为"构建"类型任务（VSCode会将其归到build菜单下）
+                "isDefault":true  // 设置为true表示这是默认的构建任务（按Ctrl+Shift+B直接执行）
+            },
+            "presentation": {  // 任务执行时的终端显示配置
+                "reveal": "always"  // 终端显示策略：
+                                    // - always：总是显示终端窗口
+                                    // - silence：仅当有错误时显示
+                                    // - never：从不显示
+            },
+            "problemMatcher": "$msCompile"  // 问题匹配器：
+                                             // 用于识别编译输出中的错误/警告，$msCompile适配MSVC风格的编译信息
+        }
+    ]
+}

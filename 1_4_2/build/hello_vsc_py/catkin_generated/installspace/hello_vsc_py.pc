@@ -1,0 +1,8 @@
+prefix=/home/hujiashuo/毕业设计/ROS-study/1_4_2/install
+
+Name: hello_vsc_py
+Description: Description of hello_vsc_py
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

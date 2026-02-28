@@ -1,0 +1,14 @@
+配置 CMakeLists.txtC++ 配置:
+
+add_executable(节点名称
+  src/C++源文件名.cpp
+)
+target_link_libraries(节点名称
+  ${catkin_LIBRARIES}
+)
+Copy
+Python 配置:
+
+catkin_install_python(PROGRAMS scripts/自定义文件名.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
