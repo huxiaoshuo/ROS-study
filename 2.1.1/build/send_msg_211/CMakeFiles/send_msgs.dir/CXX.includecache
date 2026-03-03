@@ -11,6 +11,8 @@ ros/ros.h
 /home/hujiashuo/毕业设计/ROS-study/2.1.1/src/send_msg_211/src/ros/ros.h
 std_msgs/String.h
 /home/hujiashuo/毕业设计/ROS-study/2.1.1/src/send_msg_211/src/std_msgs/String.h
+sstream
+-
 
 /opt/ros/noetic/include/ros/advertise_options.h
 ros/forwards.h
