@@ -1,0 +1,8 @@
+prefix=/home/hujiashuo/毕业设计/ROS-study/2.1.1/devel
+
+Name: send_msg_211
+Description: Description of send_msg_211
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
