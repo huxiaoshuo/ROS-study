@@ -11,7 +11,7 @@ int main(int argc ,char *argv[])
     //创建节点句柄
     ros::NodeHandle nh;
     //创建发布者对象
-    ros::Publisher pub = nh.advertise<std_msgs::String>("try_211",10);
+    ros::Publisher pub = nh.advertise<std_msgs::String>("send_211",10);
     //发布数据与发布逻辑
     std_msgs::String msg;
     //1hz

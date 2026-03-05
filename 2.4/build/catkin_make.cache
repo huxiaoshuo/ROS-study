@@ -1,2 +1,2 @@
-
+pub_py_232
 -DCATKIN_DEVEL_PREFIX=/home/hujiashuo/毕业设计/ROS-study/2.4/devel -DCMAKE_INSTALL_PREFIX=/home/hujiashuo/毕业设计/ROS-study/2.4/install -G Unix Makefiles

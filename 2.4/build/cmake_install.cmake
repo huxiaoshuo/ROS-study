@@ -146,6 +146,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/hujiashuo/毕业设计/ROS-study/2.4/build/gtest/cmake_install.cmake")
+  include("/home/hujiashuo/毕业设计/ROS-study/2.4/build/pub_py_232/cmake_install.cmake")
 
 endif()
 
